@@ -1,0 +1,21 @@
+.header{
+    background: #DC143C;
+    height: 50px;
+    padding: 40px;
+    img{
+        cursor: pointer;
+    }
+    &__box{
+        display: flex;
+        align-items: center;
+        gap: 200px;
+    }
+    ul{
+        display: flex;
+        gap: 30px;
+        font-size: 20px;
+        li{
+            cursor: pointer;
+        }
+    }
+}
